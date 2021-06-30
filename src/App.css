@@ -1,0 +1,49 @@
+nav {
+  height: 65px;
+  width: 100vw;
+  background: rgb(76, 190, 120);
+}
+.all {
+  height: 45vh;
+  width: 45vh;
+  display: flex;
+  background: rgb(76, 190, 120);
+  border-radius: 10px;
+  box-shadow: 0 19px 20px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  transition: all 0.3 cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.content {
+  margin: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.map {
+  margin-top: 15vh;
+}
+.all-content {
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.all:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.charts {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bars {
+  width: 500px;
+}
+.lines {
+  width: 500px;
+}
+.donut {
+  width: 500px;
+}
